@@ -1,0 +1,11 @@
+ | TestCaseId | ScenarioName                                            | Steps            | Expected Results | Type     | Comparison  |
+ | TC_RN_001  | Check simple case                                       | Sent ‘I’         | 1                | Positive |             |
+ | TC_RN_002  | Case with several roman symbols                         | Sent ‘LVIII’     | 58               | Positive |             |
+ | TC_RN_003  | Case with subtraction                                   | Sent ‘IV’        | 4                | Positive |             |
+ | TC_RN_004  | Case with big numbers                                   | Sent ’MCMXCIV’   | 1994             | Positive |             |
+ | TC_RN_005  | Case with not roman number                              | Sent ‘123’       | Exception        | Negative | ++          |
+ | TC_RN_006  | Case with not number                                    | Sent ‘Test’      | Exception        | Negative |             |
+ | TC_RN_007  | Case with null                                          | Sent null        | Exception        | Negative | ++          |
+ | TC_RN_008  | Case with more than max number                          | Sent ‘MMMM’      | Exception        | Negative | ++          |
+ | TC_RN_009  | Case with max number                                    | Sent ‘MMMCMXCIX’ | 3999             | Positive | ++          |
+ | TC_RN_010  | Case with more than 3 letters of the same type together | Sent ‘VIIII’     | Exception        | Negative | ++          |
