@@ -1,0 +1,9 @@
+| TestCaseId | ScenarioName	 | Steps                                                                   | Expected Results                                                                                           | Type     | Comparison |
+| TC01	     | Valid input	 | Call the romanToInt method with a valid Roman numeral string "XXIV".	   | The method should return the integer value 24.                                                             | Positive |            |
+| TC02	     | Valid input	 | Call the romanToInt method with a valid Roman numeral string "MCMXCIV". | The method should return the integer value 1994.                                                           | Positive |            |
+| TC03	     | Valid input	 | Call the romanToInt method with a valid Roman numeral string "III".	   | The method should return the integer value 3.                                                              | Positive |            |
+| TC04	     | Invalid input | Call the romanToInt method with an empty string.	                       | The method should throw an IllegalArgumentException with the message "Input string cannot be empty".       | Negative | ++         |
+| TC05	     | Invalid input | Call the romanToInt method with an invalid Roman numeral string "ABC".  | The method should throw an IllegalArgumentException with the message "Invalid Roman numeral character: A". | Negative |            |
+| TC06	     | Invalid input | Call the romanToInt method with an invalid Roman numeral string "IVI".  | The method should throw an IllegalArgumentException with the message "Invalid Roman numeral: IVI".         | Negative | ++         |
+
+Additional ++ for specifying exception and error description. -- for not unique scenario name.
