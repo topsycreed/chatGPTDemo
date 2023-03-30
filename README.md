@@ -18,3 +18,7 @@ Unit-tests:
 1. Human SDET: src/test/java/sdet/RomanToIntTest.java
 2. ChatGPT: src/test/java/chatGPT/RomanToIntTest.java
 
+Leetcode with Javadoc:
+1. Human SDET: src/main/java/org/example/sdet/LeetCodeByHumanWithDocs.java
+2. ChatGPT: src/main/java/org/example/chatGPT/RomanToIntWithDocs.java
+
