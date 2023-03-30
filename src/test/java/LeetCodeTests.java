@@ -2,7 +2,7 @@ import org.example.sdet.LeetCodeByHuman;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.example.chatGPT.LeetCodeByChatGPT.romanToInt;
+import static org.example.chatGPT.RomanToInt.romanToInt;
 
 public class LeetCodeTests {
 

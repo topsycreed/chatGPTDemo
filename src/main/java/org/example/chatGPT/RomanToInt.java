@@ -3,7 +3,7 @@ package org.example.chatGPT;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LeetCodeByChatGPT {
+public class RomanToInt {
 
     //better to use static method as util, ChatGPT++
     public static int romanToInt(String s) {
