@@ -27,3 +27,7 @@ Broken solution: src/main/java/org/example/chatGPT/RomanToIntWithErrors.java
 System design: 
 1. Human SDET: src/main/resources/SystemDesign/SDET.md
 2. ChatGPT: src/main/resources/SystemDesign/ChatGPT.md
+
+Plan for growing from manual to automation QA Engineer:
+1. Human SDET: src/main/resources/GoalPlan/SDET.md
+2. ChatGPT: src/main/resources/GoalPlan/ChatGPT.md
