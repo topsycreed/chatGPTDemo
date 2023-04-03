@@ -31,3 +31,7 @@ System design:
 Plan for growing from manual to automation QA Engineer:
 1. Human SDET: src/main/resources/GoalPlan/SDET.md
 2. ChatGPT: src/main/resources/GoalPlan/ChatGPT.md
+
+Compare UI automation tools Playwright vs Cypress:
+1. Human SDET: src/main/resources/CompareTools/SDET.md
+2. ChatGPT: src/main/resources/CompareTools/ChatGPT.md
