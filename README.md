@@ -6,7 +6,7 @@ ultimate responsibility for the content of this publication.
 Repository contains solutions for simple leetcode task for converting a roman numeral to an integer: https://leetcode.com/problems/roman-to-integer/
 As well as manual test cases and unit tests.
 
-Leetcode. 
+Leetcode:
 1. Human SDET: src/main/java/org/example/chatGPT/RomanToInt.java
 2. ChatGPT: src/main/java/org/example/sdet/LeetCodeByHuman.java
 
@@ -17,4 +17,10 @@ Test-cases:
 Unit-tests:
 1. Human SDET: src/test/java/sdet/RomanToIntTest.java
 2. ChatGPT: src/test/java/chatGPT/RomanToIntTest.java
+
+Leetcode with Javadoc:
+1. Human SDET: src/main/java/org/example/sdet/LeetCodeByHumanWithDocs.java
+2. ChatGPT: src/main/java/org/example/chatGPT/RomanToIntWithDocs.java
+
+Broken solution: src/main/java/org/example/chatGPT/RomanToIntWithErrors.java
 
