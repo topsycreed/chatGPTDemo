@@ -24,3 +24,6 @@ Leetcode with Javadoc:
 
 Broken solution: src/main/java/org/example/chatGPT/RomanToIntWithErrors.java
 
+System design: 
+1. Human SDET: src/main/resources/SystemDesign/SDET.md
+2. ChatGPT: src/main/resources/SystemDesign/ChatGPT.md
